@@ -1,4 +1,4 @@
-        Button playHenshin = (Button) this.findViewById(R.id.Henshin);
+        ImageButton playHenshin = (ImageButton) this.findViewById(R.id.Henshin);
         final MediaPlayer henshinMP = MediaPlayer.create(this, R.raw.infernowing);
         playHenshin.setOnClickListener(new View.OnClickListener() {
 
